@@ -8,7 +8,7 @@ public class StudentManager extends UserManager{
 
 	@Override
 	public void delete(User user) {
-		System.out.println("Öðrenci sistemden silindi : " +user.getFirstName()+" "+ user.getLastName());
+		System.out.println("Öðrenci bilgileri sistemden silindi : " +user.getFirstName()+" "+ user.getLastName());
 	}
 
 	@Override
